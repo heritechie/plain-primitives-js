@@ -80,17 +80,17 @@ not embedded within it.
 
 ---
 
-## Signals provided
+## Signals
 
-The Time Window Counter may provide signals such as:
+The Time Window Counter may expose factual signals such as:
 
-- current count within the window
-- whether a threshold has been reached or exceeded
-- remaining time until the window expires
+- count within the active window
+- window start and end timestamps (or remaining window time)
+- threshold exceeded (derived from count and a user-provided threshold)
 
 These signals are informational only.
 
-They do not imply what action should be taken.
+They do not imply actions, intent, or policy.
 
 ---
 
