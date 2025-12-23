@@ -125,19 +125,16 @@ All time boundaries must be explicit.
 
 ## Language and runtime neutrality
 
-Although the reference implementation will be written
-in JavaScript/TypeScript,
+Although the reference implementation will be written in JavaScript/TypeScript,
 the concept of a Time Window Counter is language-agnostic.
 
-It should be possible to reimplement this primitive
-in another language without reinterpretation of its meaning.
+It should be possible to reimplement this primitive in another language without reinterpretation of its meaning.
 
 ---
 
 ## Relationship to higher-level logic
 
-This primitive is meant to be composed with
-application logic, policies, or abstractions.
+This primitive is meant to be composed with application logic, policies, or abstractions.
 
 For example:
 
@@ -151,8 +148,7 @@ Those decisions are intentionally out of scope.
 
 ## Summary
 
-The Time Window Counter is a foundational primitive
-for temporal frequency observation.
+The Time Window Counter is a foundational primitive for temporal frequency observation.
 
 It is intentionally simple, explicit, and boring.
 
